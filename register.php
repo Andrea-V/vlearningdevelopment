@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">  
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />  
+
  
 <title>Virtual Learning Environment</title>
 <link rel="stylesheet" href="style.css" type="text/css" />
@@ -8,8 +7,11 @@
 <body>  
 <main>
     <?php
+
+
     require_once('init.php');
 	$connection=db_connect();
+
 
 if(!empty($_POST['username']) && !empty($_POST['password']))
 {

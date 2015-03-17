@@ -1,4 +1,8 @@
+
+
 <?php
+
+
     require_once('init.php');
 	//$connection=db_connect();
 	

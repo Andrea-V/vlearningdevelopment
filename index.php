@@ -8,11 +8,16 @@
 <link rel="stylesheet" href="style.css" type="text/css" />
 </head>  
 <body>  
-<main>
-<?php
+<div id="main">
+    
+    <?php
+
+
+
     require_once('init.php');
     $connection=db_connect();
 	
+
     if(!empty($_SESSION['LoggedIn']) && !empty($_SESSION['Username']))
     {
         ?>
@@ -55,7 +60,7 @@
     else
     {
     ?>
-        //display the registration form
+        
            <h1>Member Login</h1>
      
             <p>Thanks for visiting! Please either login below, or <a href="register.php">click here to register</a>.</p>
